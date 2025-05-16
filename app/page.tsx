@@ -157,18 +157,18 @@ export default function Home() {
           </div>
           <div className="mx-auto grid max-w-5xl gap-8 py-12 sm:grid-cols-2 lg:grid-cols-3">
             <div className="group relative overflow-hidden rounded-lg border bg-white shadow-sm transition-all hover:shadow-md">
-              <Link href="/products/head-band">
+              <Link href="/products/TriEase -White Band">
                 <div className="aspect-square overflow-hidden">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-05-13%20at%2016.43.11_ad9a9876.jpg-5MSV7LGJsyxtoROs9db1CJD3rQPJQ1.jpeg"
-                    alt="Head Massage Band"
+                    src="white band.jpg"
+                    alt="TriEase -White Band"
                     width={400}
                     height={400}
                     className="object-cover transition-all group-hover:scale-105"
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-lg font-bold">Head Massage Band</h3>
+                  <h3 className="text-lg font-bold">TriEase -White Band</h3>
                   <p className="text-sm text-gray-500">Smart pressure sensing for headache relief</p>
                   <div className="mt-2 flex items-center">
                     <div className="flex items-center">
@@ -176,10 +176,10 @@ export default function Home() {
                         <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
-                    <span className="ml-2 text-sm text-gray-500">(42 reviews)</span>
+                    <span className="ml-2 text-sm text-gray-500">(15 reviews)</span>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
-                    <span className="text-lg font-bold">$129.99</span>
+                    <span className="text-lg font-bold">$39.99</span>
                     <Button size="sm" className="bg-teal-600 hover:bg-teal-700">
                       View Details
                     </Button>
@@ -191,15 +191,15 @@ export default function Home() {
               <Link href="/products/wrist-band">
                 <div className="aspect-square overflow-hidden">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Apr%2019%2C%202025%2C%2010_28_44%20AM-bQCQNbqUzLznlQ6iPTz1d0oEjLfUl8.png"
-                    alt="Wrist Massage Band"
+                    src="black band.jpg"
+                    alt="TriEase -Black Band"
                     width={400}
                     height={400}
                     className="object-cover transition-all group-hover:scale-105"
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-lg font-bold">Wrist Massage Band</h3>
+                  <h3 className="text-lg font-bold">TriEase -Black Band</h3>
                   <p className="text-sm text-gray-500">Ideal for wrists and palms</p>
                   <div className="mt-2 flex items-center">
                     <div className="flex items-center">
@@ -207,10 +207,10 @@ export default function Home() {
                         <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
-                    <span className="ml-2 text-sm text-gray-500">(38 reviews)</span>
+                    <span className="ml-2 text-sm text-gray-500">(15 reviews)</span>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
-                    <span className="text-lg font-bold">$99.99</span>
+                    <span className="text-lg font-bold">$38.99</span>
                     <Button size="sm" className="bg-teal-600 hover:bg-teal-700">
                       View Details
                     </Button>
@@ -222,15 +222,15 @@ export default function Home() {
               <Link href="/products/leg-band">
                 <div className="aspect-square overflow-hidden">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-19%20at%2000.47.57_ede746f8.jpg-g8AOUB9XC3PnkK9JcAO2v3BYzjE9Dc.jpeg"
-                    alt="Leg Massage Band"
+                    src="brown band.jpg"
+                    alt="TriEase -Brown Band"
                     width={400}
                     height={400}
                     className="object-cover transition-all group-hover:scale-105"
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-lg font-bold">Leg Massage Band</h3>
+                  <h3 className="text-lg font-bold">TriEase -Brown Band</h3>
                   <p className="text-sm text-gray-500">Specialized for leg relief</p>
                   <div className="mt-2 flex items-center">
                     <div className="flex items-center">
@@ -238,10 +238,10 @@ export default function Home() {
                         <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
-                    <span className="ml-2 text-sm text-gray-500">(56 reviews)</span>
+                    <span className="ml-2 text-sm text-gray-500">(15 reviews)</span>
                   </div>
                   <div className="mt-4 flex items-center justify-between">
-                    <span className="text-lg font-bold">$109.99</span>
+                    <span className="text-lg font-bold">$37.99</span>
                     <Button size="sm" className="bg-teal-600 hover:bg-teal-700">
                       View Details
                     </Button>

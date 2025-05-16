@@ -18,16 +18,16 @@ export default function ProductPage({ params }: ProductPageProps) {
 
   // In a real app, you would fetch this data from an API or database
   const products = {
-    "leg-band": {
-      id: "leg-band",
-      name: "Leg Massage Band",
+    "TriEase -White Band": {
+      id: "TriEase -White Band",
+      name: "TriEase -White Band",
       description: "Perfect for calves and thighs",
       fullDescription:
         "Our Leg Massage Band is specifically designed to target sore muscles in your legs. The ergonomic design wraps comfortably around calves and thighs, providing deep tissue massage and relief. Made with premium materials, this band is durable, easy to clean, and perfect for post-workout recovery or chronic pain relief.",
-      price: 29.99,
+      price: 39.99,
       rating: 5,
-      reviews: 42,
-      image: "/placeholder.svg?height=600&width=600",
+      reviews: 15,
+      image: "white band.jpg",
       features: [
         "Ergonomic design for leg muscles",
         "Adjustable tension for customized pressure",
@@ -36,16 +36,16 @@ export default function ProductPage({ params }: ProductPageProps) {
         "Includes instructional guide",
       ],
     },
-    "hand-band": {
-      id: "hand-band",
-      name: "Hand Massage Band",
+    "TriEase -Black Band": {
+      id: "TriEase -Black Band",
+      name: "TriEase -Black Band",
       description: "Ideal for wrists and palms",
       fullDescription:
         "The Hand Massage Band provides targeted relief for hands, wrists, and forearms. Perfect for those who type all day, experience carpal tunnel symptoms, or need recovery after intense hand use. The specialized design allows for self-application and adjustable pressure to meet your specific needs.",
-      price: 24.99,
+      price: 38.99,
       rating: 5,
-      reviews: 38,
-      image: "/placeholder.svg?height=600&width=600",
+      reviews: 15,
+      image: "black band.jpg",
       features: [
         "Specialized design for hand and wrist relief",
         "Compact and portable",
@@ -54,16 +54,16 @@ export default function ProductPage({ params }: ProductPageProps) {
         "Includes carrying pouch",
       ],
     },
-    "knee-band": {
-      id: "knee-band",
-      name: "Knee Massage Band",
+    "TriEase -Brown Band": {
+      id: "TriEase -Brown Band",
+      name: "TriEase -Brown Band",
       description: "Specialized for knee relief",
       fullDescription:
         "Our Knee Massage Band is engineered to provide relief for knee pain and discomfort. Whether you're recovering from an injury, dealing with arthritis, or experiencing post-workout soreness, this band delivers targeted pressure to alleviate pain and promote healing. The unique design wraps securely around the knee while allowing for movement.",
-      price: 34.99,
+      price: 37.99,
       rating: 5,
-      reviews: 56,
-      image: "/placeholder.svg?height=600&width=600",
+      reviews: 15,
+      image: "brown band.jpg",
       features: [
         "Contoured design for knee anatomy",
         "Stays in place during movement",
@@ -72,24 +72,7 @@ export default function ProductPage({ params }: ProductPageProps) {
         "Suitable for all knee sizes",
       ],
     },
-    bundle: {
-      id: "bundle",
-      name: "Complete Relief Bundle",
-      description: "Includes all three massage bands",
-      fullDescription:
-        "Get the complete relief experience with our bundle package. Includes our Leg, Hand, and Knee Massage Bands at a discounted price. Perfect for those who experience multiple areas of discomfort or want to share with family members. Each band is designed for specific body parts to provide maximum effectiveness.",
-      price: 79.99,
-      rating: 5,
-      reviews: 27,
-      image: "/placeholder.svg?height=600&width=600",
-      features: [
-        "Complete set for whole-body relief",
-        "Save 12% compared to individual purchases",
-        "Includes all accessories and guides",
-        "Premium storage case included",
-        "Perfect gift for athletes or those with chronic pain",
-      ],
-    },
+    
   }
 
   const product = products[params.id as keyof typeof products] || {
