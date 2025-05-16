@@ -15,12 +15,13 @@ export default function AboutPage() {
 
         <div className="overflow-hidden rounded-lg">
           <Image
-            src="/placeholder.svg?height=400&width=800"
+            src="/prototype.jpg"
             alt="Our Team"
             width={800}
             height={400}
             className="w-full object-cover"
           />
+          
         </div>
 
         <div className="space-y-4">
@@ -96,7 +97,7 @@ export default function AboutPage() {
             <div className="space-y-2">
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="ramika.svg"
+                  src="/team/ramika.jpg"
                   alt="Team Member"
                   width={300}
                   height={300}
@@ -109,7 +110,7 @@ export default function AboutPage() {
             <div className="space-y-2">
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/ramika.svg?height=300&width=300"
+                  src="/team/danidu01.jpg"
                   alt="Team Member"
                   width={300}
                   height={300}
@@ -122,7 +123,7 @@ export default function AboutPage() {
             <div className="space-y-2">
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/team/daksha.jpg"
                   alt="Team Member"
                   width={300}
                   height={300}
@@ -130,19 +131,19 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-bold">Daksha Sumanadas</h3>
-              <p className="text-gray-500">Software engineer,UI/UX Designer </p>
+              <p className="text-gray-500">Software Engineer,UI/UX Designer </p>
             </div>
             <div className="space-y-2">
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/ramika.svg?height=300&width=300"
+                  src="/team/asra.jpg"
                   alt="Team Member"
                   width={300}
                   height={300}
                   className="w-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold">Asra Fathima</h3>
+              <h3 className="text-xl font-bold">Fathima Asra </h3>
               <p className="text-gray-500">Business Analysis,UI/UX Designer</p>
             </div>
           </div>

@@ -7,15 +7,23 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-teal-50 to-white">
-        <div className="container px-4 md:px-6">
+      <section className="w-full py-12 md:py-24 lg:py-32 relative">
+        <video
+          src="/video.mp4"
+          autoPlay
+          muted
+          loop
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        />
+        <div className="absolute inset-0 bg-black/50 z-10"></div>
+        <div className="container px-4 md:px-6 relative z-20">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-            <div className="flex flex-col justify-center space-y-4">
+            <div className="flex flex-col justify-center space-y-4 text-white">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                   Say goodbye to stress, anywhere. Anytime.
                 </h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-200 md:text-xl">
                   The smart head, wrist & leg massager designed for your lifestyle.
                 </p>
               </div>
@@ -26,21 +34,11 @@ export default function Home() {
                   </Button>
                 </Link>
                 <Link href="/about">
-                  <Button size="lg" variant="outline">
+                  <Button size="lg" variant="outline" className="text-white border-green hover:bg-teal-600">
                     Learn More
                   </Button>
                 </Link>
               </div>
-            </div>
-            <div className="flex items-center justify-center">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-19%20at%2000.47.57_a7fb7317.jpg-diuvojnTiexJmQQ7UGxFo1xiBu6FXK.jpeg"
-                alt="TriEase Smart Massager"
-                width={500}
-                height={500}
-                className="rounded-xl object-cover"
-                priority
-              />
             </div>
           </div>
         </div>
@@ -151,9 +149,9 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Products</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Product</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Discover our range of smart massagers for different body parts.
+                Discover our range of smart massager for different body parts.
               </p>
             </div>
           </div>
@@ -303,7 +301,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-19%20at%2007.57.30_c67a1d73.jpg-qDU0vdt6tekq74vzYFj7ZT9ipSveuG.jpeg"
+                src="/app.jpg"
                 alt="TriEase App"
                 width={500}
                 height={500}
@@ -321,90 +319,92 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Simple Pricing</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Choose the perfect TriEase package for your needs.
+                Choose the perfect TriEase App package for your needs.
               </p>
             </div>
           </div>
-          <div className="mx-auto grid max-w-5xl gap-8 py-12 md:grid-cols-3">
-            <div className="flex flex-col rounded-lg border bg-white shadow-sm">
+          <div className="mx-auto grid max-w-5xl gap-8 py-12 md:grid-cols-3 ">
+            <div className="flex flex-col rounded-lg border bg-white shadow-sm ">
               <div className="p-6">
-                <h3 className="text-xl font-bold">Single Band</h3>
-                <div className="mt-4 text-3xl font-bold">$99.99</div>
+                <h3 className="text-xl font-bold">TriEase Basic</h3>
+                <div className="mt-4 text-3xl font-bold">FREE</div>
                 <p className="mt-2 text-gray-500">Choose one band for targeted relief</p>
                 <ul className="mt-6 space-y-2">
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>One TriEase band of your choice</span>
+                    <span>App Control</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>App access</span>
+                    <span>Basic vibration mode(standard on/off pattern) </span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>1-year warranty</span>
+                    <span>Manual intensity control(Low,Medium,High)</span>
                   </li>
+                  
                 </ul>
-                <Button className="mt-6 w-full bg-teal-600 hover:bg-teal-700">Buy Now</Button>
+                
               </div>
             </div>
             <div className="flex flex-col rounded-lg border bg-teal-50 shadow-sm relative">
               <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-0 rounded-full bg-teal-600 px-3 py-1 text-xs font-medium text-white">
                 Popular
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold">Dual Relief</h3>
-                <div className="mt-4 text-3xl font-bold">$179.99</div>
-                <p className="mt-2 text-gray-500">Choose any two bands</p>
+              <div className="p-6 ">
+                <h3 className="text-xl font-bold">TriEase Plus</h3>
+                <div className="mt-4 text-3xl font-bold">$4.99/monthly</div>
+                <p className="mt-2 text-gray-500">Upgrade your experience with more control and comfort</p>
                 <ul className="mt-6 space-y-2">
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>Two TriEase bands of your choice</span>
+                    <span>Everything in Basic</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>App access with premium features</span>
+                    <span>Adjustable intensity slider (smooth range control)</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>2-year warranty</span>
+                    <span>Access to calming background music syned with vibration</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>Free charging dock</span>
+                    <span>Scheduled massage sessions(set timers for auto-start/stop)</span>
                   </li>
+                  
                 </ul>
-                <Button className="mt-6 w-full bg-teal-600 hover:bg-teal-700">Buy Now</Button>
+               
               </div>
             </div>
             <div className="flex flex-col rounded-lg border bg-white shadow-sm">
               <div className="p-6">
-                <h3 className="text-xl font-bold">Complete TriEase</h3>
-                <div className="mt-4 text-3xl font-bold">$249.99</div>
-                <p className="mt-2 text-gray-500">The full 3-in-1 experience</p>
+                <h3 className="text-xl font-bold">TriEase Premium</h3>
+                <div className="mt-4 text-3xl font-bold">$14.99/monthly</div>
+                <p className="mt-2 text-gray-500">The full 3-in-1 experience for ultimate relief and relaxation</p>
                 <ul className="mt-6 space-y-2">
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>All three TriEase bands</span>
+                    <span>Everything in Plus</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>Lifetime app premium access</span>
+                    <span>Immersive Serenity Mode</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>3-year extended warranty</span>
+                    <span>Access to relaxation games </span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>Premium charging station</span>
+                    <span>Guided wellness stories & meditations</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-teal-600" />
-                    <span>Travel case included</span>
+                    <span>Priority feature access & early content releases</span>
                   </li>
                 </ul>
-                <Button className="mt-6 w-full bg-teal-600 hover:bg-teal-700">Buy Now</Button>
+                
               </div>
             </div>
           </div>

@@ -110,7 +110,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} TriEase. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Reviora. All rights reserved.</p>
         </div>
       </div>
     </footer>

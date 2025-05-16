@@ -14,38 +14,32 @@ export default function PricingPage() {
           {/* Basic Plan */}
           <div className="flex flex-col rounded-lg border bg-white shadow-sm">
             <div className="p-6">
-              <h2 className="text-xl font-bold">Single Band</h2>
-              <div className="mt-4 text-3xl font-bold">$99.99</div>
-              <p className="mt-2 text-gray-500">Choose one band for targeted relief</p>
+              <h2 className="text-xl font-bold">TriEase Basic</h2>
+              <div className="mt-4 text-3xl font-bold">FREE</div>
+              <p className="mt-2 text-gray-500">Essential access to TriEase smart therapy </p>
               <ul className="mt-6 space-y-3">
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>One TriEase band of your choice</span>
+                  <span>App Control</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>App access (basic features)</span>
+                  <span>Basic vibration mode(standard on/off pattern)</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>1-year warranty</span>
+                  <span>Manual intensity control (Low,Medium,High)</span>
                 </li>
+                
                 <li className="flex items-start">
-                  <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>USB-C charging cable</span>
+                  <X className="mr-2 h-5 w-5 text-gray-300 flex-shrink-0 mt-0.5" />
+                  <span className="text-gray-500">No advanced moods or audio integration</span>
                 </li>
                 <li className="flex items-start">
                   <X className="mr-2 h-5 w-5 text-gray-300 flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-500">Wireless charging dock</span>
+                  <span className="text-gray-500">No access to relaxating content or immersive features</span>
                 </li>
-                <li className="flex items-start">
-                  <X className="mr-2 h-5 w-5 text-gray-300 flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-500">Premium app features</span>
-                </li>
-                <li className="flex items-start">
-                  <X className="mr-2 h-5 w-5 text-gray-300 flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-500">Travel case</span>
-                </li>
+                
               </ul>
               <Button className="mt-6 w-full bg-teal-600 hover:bg-teal-700">Buy Now</Button>
             </div>
@@ -57,38 +51,32 @@ export default function PricingPage() {
               Popular
             </div>
             <div className="p-6">
-              <h2 className="text-xl font-bold">Dual Relief</h2>
-              <div className="mt-4 text-3xl font-bold">$179.99</div>
-              <p className="mt-2 text-gray-500">Choose any two bands</p>
+              <h2 className="text-xl font-bold">TriEase Plus/monthly</h2>
+              <div className="mt-4 text-3xl font-bold">$4.99</div>
+              <p className="mt-2 text-gray-500">Enhanced experience with extended comfort</p>
               <ul className="mt-6 space-y-3">
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>Two TriEase bands of your choice</span>
+                  <span>Everything in Basic</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>App access with premium features</span>
+                  <span>Adjustable intensity slider (smooth range control)</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>2-year warranty</span>
+                  <span>Access to calming background music synced with vibration</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>USB-C charging cable</span>
+                  <span>scheduled massage sessions (set times for auto-start/stop)</span>
                 </li>
-                <li className="flex items-start">
-                  <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>Wireless charging dock</span>
-                </li>
+                
                 <li className="flex items-start">
                   <X className="mr-2 h-5 w-5 text-gray-300 flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-500">Travel case</span>
+                  <span className="text-gray-500">Immersive serenity, stories or games not included</span>
                 </li>
-                <li className="flex items-start">
-                  <X className="mr-2 h-5 w-5 text-gray-300 flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-500">Lifetime app updates</span>
-                </li>
+                
               </ul>
               <Button className="mt-6 w-full bg-teal-600 hover:bg-teal-700">Buy Now</Button>
             </div>
@@ -97,25 +85,25 @@ export default function PricingPage() {
           {/* Premium Plan */}
           <div className="flex flex-col rounded-lg border bg-white shadow-sm">
             <div className="p-6">
-              <h2 className="text-xl font-bold">Complete TriEase</h2>
-              <div className="mt-4 text-3xl font-bold">$249.99</div>
-              <p className="mt-2 text-gray-500">The full 3-in-1 experience</p>
+              <h2 className="text-xl font-bold">TriEase Premium/monthly</h2>
+              <div className="mt-4 text-3xl font-bold">$14.99</div>
+              <p className="mt-2 text-gray-500">The full smart wellness experience </p>
               <ul className="mt-6 space-y-3">
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>All three TriEase bands</span>
+                  <span>Everything in plus</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>App access with all premium features</span>
+                  <span>Immersive Serenity Mode</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>3-year extended warranty</span>
+                  <span>Access to wellness stories & meditations</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                  <span>USB-C charging cable</span>
+                  <span>Priority feature access & early content releases</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />

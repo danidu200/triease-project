@@ -43,7 +43,7 @@ export default function FeaturesPage() {
             </div>
             <div className="order-1 md:order-2">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-19%20at%2000.47.57_a7fb7317.jpg-diuvojnTiexJmQQ7UGxFo1xiBu6FXK.jpeg"
+                src="/band.jpg"
                 alt="Battery Life"
                 width={500}
                 height={300}
