@@ -8,7 +8,7 @@ export default function ProductsPage() {
     {
       id: "TriEase -White Band",
       name: "TriEase -White Band",
-      description: "Perfect for calves and thighs",
+      description: "Enhanced head and temple massage for deep relaxation",
       price: 39.99,
       rating: 5,
       reviews: 15,
@@ -17,7 +17,7 @@ export default function ProductsPage() {
     {
       id: "TriEase -Black Band",
       name: "TriEase -Black Band",
-      description: "Ideal for wrists and palms",
+      description: "Precision-targeted therapy for wrist and palm tension relief",
       price: 38.99,
       rating: 5,
       reviews: 15,
@@ -26,7 +26,7 @@ export default function ProductsPage() {
     {
       id: "TriEase -Brown Band",
       name: "TriEase -Brown Band",
-      description: "Specialized for knee relief",
+      description: "Ergonomic comfort and vibration for calf and leg relxation",
       price: 37.99,
       rating: 5,
       reviews: 15,

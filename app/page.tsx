@@ -169,7 +169,7 @@ export default function Home() {
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg font-bold">TriEase -White Band</h3>
-                  <p className="text-sm text-gray-500">Smart pressure sensing for headache relief</p>
+                  <p className="text-sm text-gray-500">Enhanced head and temple massage for deep relaxation</p>
                   <div className="mt-2 flex items-center">
                     <div className="flex items-center">
                       {[...Array(5)].map((_, i) => (
@@ -200,7 +200,7 @@ export default function Home() {
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg font-bold">TriEase -Black Band</h3>
-                  <p className="text-sm text-gray-500">Ideal for wrists and palms</p>
+                  <p className="text-sm text-gray-500">Precision-targeted therapy for wrist and palm tension relief</p>
                   <div className="mt-2 flex items-center">
                     <div className="flex items-center">
                       {[...Array(5)].map((_, i) => (
@@ -231,7 +231,7 @@ export default function Home() {
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg font-bold">TriEase -Brown Band</h3>
-                  <p className="text-sm text-gray-500">Specialized for leg relief</p>
+                  <p className="text-sm text-gray-500">Ergonomic comfort and vibration for calf and leg relaxation</p>
                   <div className="mt-2 flex items-center">
                     <div className="flex items-center">
                       {[...Array(5)].map((_, i) => (
