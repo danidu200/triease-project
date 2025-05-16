@@ -21,7 +21,7 @@ export default function ProductPage({ params }: ProductPageProps) {
     "TriEase -White Band": {
       id: "TriEase -White Band",
       name: "TriEase -White Band",
-      description: "Perfect for calves and thighs",
+      description: "Enhanced head and temple massage for deep relaxation",
       fullDescription:
         "Our Leg Massage Band is specifically designed to target sore muscles in your legs. The ergonomic design wraps comfortably around calves and thighs, providing deep tissue massage and relief. Made with premium materials, this band is durable, easy to clean, and perfect for post-workout recovery or chronic pain relief.",
       price: 39.99,
@@ -39,9 +39,9 @@ export default function ProductPage({ params }: ProductPageProps) {
     "TriEase -Black Band": {
       id: "TriEase -Black Band",
       name: "TriEase -Black Band",
-      description: "Ideal for wrists and palms",
+      description: "Precision-targeted therapy for wrist and palm tension relief",
       fullDescription:
-        "The Hand Massage Band provides targeted relief for hands, wrists, and forearms. Perfect for those who type all day, experience carpal tunnel symptoms, or need recovery after intense hand use. The specialized design allows for self-application and adjustable pressure to meet your specific needs.",
+        "The TriEase Massage Band provides targeted relief for hands, wrists, and forearms. Perfect for those who type all day, experience carpal tunnel symptoms, or need recovery after intense hand use. The specialized design allows for self-application and adjustable pressure to meet your specific needs.",
       price: 38.99,
       rating: 5,
       reviews: 15,
@@ -57,9 +57,9 @@ export default function ProductPage({ params }: ProductPageProps) {
     "TriEase -Brown Band": {
       id: "TriEase -Brown Band",
       name: "TriEase -Brown Band",
-      description: "Specialized for knee relief",
+      description: "Ergonomic comfort and vibration for calf and leg relaxation",
       fullDescription:
-        "Our Knee Massage Band is engineered to provide relief for knee pain and discomfort. Whether you're recovering from an injury, dealing with arthritis, or experiencing post-workout soreness, this band delivers targeted pressure to alleviate pain and promote healing. The unique design wraps securely around the knee while allowing for movement.",
+        "Our TriEase Massage Band is engineered to provide relief for knee pain and discomfort. Whether you're recovering from an injury, dealing with arthritis, or experiencing post-workout soreness, this band delivers targeted pressure to alleviate pain and promote healing. The unique design wraps securely around the knee while allowing for movement.",
       price: 37.99,
       rating: 5,
       reviews: 15,

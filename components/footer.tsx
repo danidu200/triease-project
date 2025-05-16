@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Twitter } from "lucide-react"
+import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
 import Image from "next/image"
 
 export default function Footer() {
@@ -28,8 +28,8 @@ export default function Footer() {
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link href="https://www.linkedin.com/in/reviora-team-40147235a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-500 hover:text-teal-600">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">Linkdin</span>
               </Link>
             </div>
           </div>
