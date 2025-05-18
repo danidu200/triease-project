@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Relief Band - Muscle Reliever Massage Bands",
+  title: "TriEase - Muscle Reliever Massage Band",
   description:
     "Premium muscle reliever massage bands for legs, hands, and knees. Experience instant relief with our innovative products.",
   keywords: "massage band, muscle relief, leg pain, hand pain, knee pain, massage therapy",
