@@ -38,24 +38,20 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/products/head-band" className="text-sm text-gray-500 hover:text-teal-600">
-                  Head Massage Band
+                  TriEase -White Massage Band
                 </Link>
               </li>
               <li>
                 <Link href="/products/wrist-band" className="text-sm text-gray-500 hover:text-teal-600">
-                  Wrist Massage Band
+                  TriEase -Black Massage Band
                 </Link>
               </li>
               <li>
                 <Link href="/products/leg-band" className="text-sm text-gray-500 hover:text-teal-600">
-                  Leg Massage Band
+                  TriEase -Brown Massage Band
                 </Link>
               </li>
-              <li>
-                <Link href="/products/bundle" className="text-sm text-gray-500 hover:text-teal-600">
-                  Complete Bundle
-                </Link>
-              </li>
+              
             </ul>
           </div>
           <div className="space-y-4">
