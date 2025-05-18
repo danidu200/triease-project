@@ -17,7 +17,8 @@ export default function ProductPage({ params }: ProductPageProps) {
   const { addItem } = useCart()
 
   // In a real app, you would fetch this data from an API or database
-  const products = {
+  const products ={
+     
     "TriEase -White Band": {
       id: "TriEase -White Band",
       name: "TriEase -White Band",
