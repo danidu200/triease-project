@@ -20,7 +20,7 @@ export default function FeaturesPage() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-100 text-teal-600">
                   <Battery className="h-6 w-6" />
                 </div>
-                <h2 className="text-2xl font-bold">20-Hour Battery Life</h2>
+                <h2 className="text-2xl font-bold">5-Hour Battery Life</h2>
                 <p className="text-gray-600">
                   Our advanced lithium-ion battery technology provides up to 20 hours of continuous use on a single
                   charge. Perfect for extended use throughout your day or for multiple days without recharging.
@@ -68,7 +68,7 @@ export default function FeaturesPage() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-100 text-teal-600">
                   <Bluetooth className="h-6 w-6" />
                 </div>
-                <h2 className="text-2xl font-bold">Bluetooth App Control</h2>
+                <h2 className="text-2xl font-bold">WiFi App Control</h2>
                 <p className="text-gray-600">
                   Take full control of your massage experience with our intuitive smartphone app. Adjust intensity,
                   select massage patterns, and customize your experience to your exact preferences.
@@ -76,7 +76,7 @@ export default function FeaturesPage() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                    <span>Seamless Bluetooth 5.0 connectivity</span>
+                    <span>Seamless WiFi connectivity</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="mr-2 h-5 w-5 text-teal-600 flex-shrink-0 mt-0.5" />
