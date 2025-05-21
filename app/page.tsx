@@ -34,7 +34,7 @@ export default function Home() {
                   </Button>
                 </Link>
                 <Link href="/about">
-                  <Button size="lg" variant="outline" className="text-white border-green hover:bg-teal-600">
+                  <Button size="lg" variant="outline" className="text-black border-green hover:bg-teal-60">
                     Learn More
                   </Button>
                 </Link>
@@ -45,11 +45,11 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-10 md:py-24 lg:py-12">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Choose TriEase?</h2>
+          <div className="flex flex-col items-center justify-center space-y-2 text-center ">
+            <div className="space-y-1 ">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl ">Why Choose TriEase?</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Our 3-in-1 smart massager provides targeted relief exactly where you need it.
               </p>
@@ -61,7 +61,7 @@ export default function Home() {
                 <CheckCircle className="h-6 w-6" />
               </div>
               <div className="space-y-2">
-                <h3 className="text-xl font-bold">20-Hour Battery Life</h3>
+                <h3 className="text-xl font-bold">5-Hour Battery Life</h3>
                 <p className="text-gray-500 dark:text-gray-400">
                   Long-lasting power for extended use throughout your day.
                 </p>
@@ -72,7 +72,7 @@ export default function Home() {
                 <CheckCircle className="h-6 w-6" />
               </div>
               <div className="space-y-2">
-                <h3 className="text-xl font-bold">Bluetooth App Control</h3>
+                <h3 className="text-xl font-bold">WiFi App Control</h3>
                 <p className="text-gray-500 dark:text-gray-400">
                   Customize your massage experience from your smartphone.
                 </p>
@@ -94,7 +94,7 @@ export default function Home() {
       </section>
 
       {/* Tech Specs Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+      <section className="w-full py-12 md:py-24 lg:py-10 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* Product Showcase */}
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-12 md:py-24 lg:py-12">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -504,7 +504,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/contact">
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-teal-700">
+                <Button size="lg" variant="outline" className="text-black border-green hover:bg-teal-60">
                   Contact Us
                 </Button>
               </Link>
