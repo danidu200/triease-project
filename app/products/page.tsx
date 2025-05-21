@@ -36,7 +36,7 @@ export default function ProductsPage() {
   ]
 
   return (
-    <div className="container px-4 py-12 md:px-6 md:py-24">
+    <div className="container px-4 py-12 md:px-6 md:py-22">
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Products</h1>
