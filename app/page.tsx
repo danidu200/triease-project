@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* Product Showcase */}
-      <section className="w-full py-12 md:py-24 lg:py-12">
+      <section className="w-full py-12 md:py-24 lg:py-6">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -261,7 +261,7 @@ export default function Home() {
       </section>
 
       {/* App Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-teal-50">
+      <section className="w-full py-12 md:py-24 lg:py-12 bg-teal-50">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="flex flex-col justify-center space-y-4">
@@ -313,7 +313,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-12 md:py-24 lg:py-12">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -412,7 +412,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+      <section className="w-full py-12 md:py-24 lg:py-12 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -488,7 +488,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-teal-600 text-white">
+      <section className="w-full py-12 md:py-24 lg:py-12 bg-teal-600 text-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
