@@ -380,7 +380,7 @@ export default function Home() {
             <div className="flex flex-col rounded-lg border bg-white shadow-sm">
               <div className="p-6">
                 <h3 className="text-xl font-bold">TriEase Premium</h3>
-                <div className="mt-4 text-3xl font-bold">$14.99/monthly</div>
+                <div className="mt-4 text-3xl font-bold">$9.99/monthly</div>
                 <p className="mt-2 text-gray-500">The full 3-in-1 experience for ultimate relief and relaxation</p>
                 <ul className="mt-6 space-y-2">
                   <li className="flex items-center">
